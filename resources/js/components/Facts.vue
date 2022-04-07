@@ -2,10 +2,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Here are your Cat Facts</div>
+                <div class="">
+                    <div class="h2">Here are your Cat Facts</div>
 
-                    <div class="card-body">
+                    <div class="">
                         
                         <div class="list-group-item" v-for="fact in facts">
                             {{ fact.fact }}
